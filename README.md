@@ -1,6 +1,14 @@
-# Run on iOS
+How to run it in iOS simulator ?
 
+1. install packages
+
+```sh
+npm i
+cd ios && pod install
 ```
-sudo lsof -i :<port_number>
-kill -9 <PID>
-```
+
+2. Open and build it in xcode and run it on iOS simulator
+
+![ads demo ](./assets/demo.gif)
+Show Ads in React Native App
+Open Ads in browser
