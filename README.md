@@ -10,5 +10,7 @@ cd ios && pod install
 2. Open and build it in xcode and run it on iOS simulator
 
 ![ads demo ](./assets/demo.gif)
+
 Show Ads in React Native App
-Open Ads in browser
+
+click ads to open it in browser
