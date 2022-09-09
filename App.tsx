@@ -69,9 +69,6 @@ const styles = StyleSheet.create({
 const image = {
   uri: 'https://awss3stack-mybucket15d133bf-qsmiisib9jde.s3.amazonaws.com/zuoqin.pro.png',
 };
-const logo = {
-  uri: 'https://awss3stack-mybucket15d133bf-qsmiisib9jde.s3.amazonaws.com/travel_logo.png',
-};
 
 const App = () => {
   const [isDarkMode, setIsEnabled] = useState(useColorScheme() === 'dark');
