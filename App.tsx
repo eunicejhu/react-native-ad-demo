@@ -99,21 +99,17 @@ const App = () => {
               ref={webviewRef}
               source={{
                 html: `
-    <a
+                <iframe width="100%" height="50%" src="https://www.zuoqin.pro/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                <a
         target="_blank"
-        href="https://pub.le360.ma/ads360/www/delivery/ck.php?n=d01c846"
-        ><img
-          border="0"
-          alt=""
-          width="100%"
-          height="100%"
-          src="https://pub.le360.ma/ads360/www/delivery/avw.php?zoneid=335&amp;n=d01c846" /></a
-    > `,
+        
+        ></iframe>
+    `,
               }}
               onNavigationStateChange={event => {
                 if (event.url !== 'about:blank') {
-                  webviewRef.current?.stopLoading();
-                  Linking.openURL('https://fr.le360.ma/');
+                  // webviewRef.current?.stopLoading();
+                  // Linking.openURL('https://fr.le360.ma/');
                 }
               }}
               injectedJavaScript={loadAds}
